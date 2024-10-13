@@ -1,0 +1,87 @@
+.counter {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.smallCounter{
+  border: 0.5rem #2e2c2c;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  border: 0.5rem #2e2c2c;
+  padding: 2rem;
+  gap: 1rem;
+}
+.input label{
+  color: white;
+  background-color: #3c0080;
+  border: 2px solid black;
+  font-size: medium;
+  text-align: center;
+  padding: 3px;
+}
+.input input{
+  color: black;
+  background-color: white;
+  border: 4px black;
+  text-align: center;
+  font-size: large;
+}
+.smallCounter button{
+  font-size: xx-large;
+  width: 2rem;
+  height: 2rem;
+  color: black;
+  background-color: white;
+  border: 4px black;
+  text-align: center;
+  border-radius: 1px;
+}
+.counter h1 {
+  text-transform: uppercase;
+  color: #575757;
+  margin: 0;
+  font-size: 1rem;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.button button{
+  font-size: large;
+  padding: 0.75rem;
+  color: white;
+  background-color: #3c0080;
+  border: 0.25rem black;
+  text-align: center;
+  border-radius: 0.1rem;
+}
+.hero{
+  font-size: large;
+  padding: 0.75rem;
+  color: white;
+  background-color: #3c0080;
+  border: 0.25rem black;
+  text-align: center;
+  border-radius: 0.1rem;
+  margin: 1rem;
+}
+.value {
+  font-size: 2rem;
+  color: #3c0080;
+  font-weight: bold;
+}

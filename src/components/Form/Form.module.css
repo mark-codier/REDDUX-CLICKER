@@ -1,0 +1,13 @@
+.input{
+    display: flex;
+   flex-direction: column;
+   border: 0.5rem #2e2c2c;
+   padding: 2rem;
+   gap: 1rem;
+}
+.ul{
+  width: 70%;
+  margin: 4rem;
+  padding: 3rem;
+  background-color: black;
+}
